@@ -118,8 +118,8 @@ function setup() {
 function draw() {
   background('#98d3d6');
   
-  ambientLight(200, 200, 200);
-  directionalLight(250, 250, 250, width/2, height/2, -100);
+  // ambientLight(255);
+  // directionalLight(250, 250, 250, width/2, height/2, -100);
 
   if(showMenu) {
     drawMouse();
